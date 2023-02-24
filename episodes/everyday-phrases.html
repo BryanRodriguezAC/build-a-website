@@ -4,73 +4,84 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Everyday Phrases</title>
 </head>
 <body>
-  <!-- Include the tag for introductory content -->
+  <header><!-- Include the tag for introductory content -->
 
-    <!-- Display sysk logo nested in an anchor tag to link to index.html -->
+    <a href="index.html"><img src="images/sysk-logo.webp" alt="Image of a podcast logo"></a><!-- Display sysk logo nested in an anchor tag to link to index.html -->
   
     <!-- Write the markup for a navigation and link items to appropriate pages -->
-    About
-    Episodes
+    <nav role="navigation">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="episodes/episodes.html">Episodes</a></li>
+      </ul>
+    </nav>
+   
+
+  </header>  
+
+  <main><!-- Add an element that represents the main content of the page --> 
 
 
+    <aboutthispodcast><!-- Include a tag that groups the information about this particular podcast -->
 
-  <!-- Add an element that represents the main content of the page --> 
-
-
-    <!-- Include a tag that groups the information about this particular podcast -->
-
-      <!-- Display image relevant to topic -->
+      <img src="/images/everyday-phrases.jpeg" alt="Image of a bunch of words relating to everyday phrases"><!-- Display image relevant to topic -->
 
       <!-- Main heading for the page -->
-      Interesting Origins of Everday Phrases
+      <h1>Interesting Origins of Everday Phrases</h1>
       
-      December 15, 2022
-      49 min
+      <p>December 15, 2022</p>
+      <p>49 min</p>
 
-      We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!
+      <p>We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!</p>
 
       <!-- Link to external url: https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/interesting-origins-of-everyday-phrases-106017958/   -->
-      Click here to play episode on iHeart
+      <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/interesting-origins-of-everyday-phrases-106017958/">Click here to play episode on iHeart</a>
+      
+    </aboutthispodcast>  
 
-
-    <!-- Include a tag that groups the other two podcasts -->  
+    <otherpodcasts><!-- Include a tag that groups the other two podcasts -->  
 
       <!-- Section heading -->
-      You might also like...
+      <h2>You might also like...</h2>
 
-      <!-- Include a tag for independent, self-contained content content -->
+      <section1><!-- Include a tag for independent, self-contained content content -->
         
         <!-- Section sub-heading -->
-        The History of Fake Towns
+        <h3>The History of Fake Towns</h3>
 
-        <!-- Display image relevant to topic -->
+        <img src="/images/fake-towns.jpeg" alt="Black and white image of a girl standing next to a sign pole in a town"><!-- Display image relevant to topic -->
 
-        There have been a lot of fake towns built throughout history for a lot of different reasons, like this idyllic suburb Boeing built in the 40s to hide production of their B-17 Bombers! Learn all about these bogus burbs.
+        <p>There have been a lot of fake towns built throughout history for a lot of different reasons, like this idyllic suburb Boeing built in the 40s to hide production of their B-17 Bombers! Learn all about these bogus burbs.</p>
         
         <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
+        <a href="fake-towns.html">Learn more</a>
+        
+      </section1>
 
-
-      <!-- Include a tag for independent, self-contained content content -->
+      <section2><!-- Include a tag for independent, self-contained content content -->
         
         <!-- Section sub-heading -->
-        Doppelgängers: Hey you, you're me!
+        <h3>Doppelgängers: Hey you, you're me!</h3>
 
         <!-- Display image relevant to topic -->
-        
-        Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!
+        <img src="/images/doppelgangers.jpeg" alt="Image of two silhouettes facing each other">
+        <p>Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!</p>
 
         <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
-     
-
+        <a href="doppelgangers.html">Learn more</a>
         
-  <!-- Include the tag for footer content -->
-  &copy; SYSK 2023
+      </section2>  
+    </otherpodcasts> 
   
+  </main>  
+  
+  <footer>
+    <!-- Include the tag for footer content -->
+    <p><small>&copy; SYSK 2023</small></p>
+  </footer>
    
 </body>
 </html>
